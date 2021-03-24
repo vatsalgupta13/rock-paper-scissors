@@ -7,7 +7,7 @@ cli_sock = socket.socket()
 cli_sock.connect(("localhost", port))
 
 
-print("Welcome to Rock Paper Scissors. \nEnter R or P or S to play")
+print("Welcome to Rock Paper Scissors. \nEnter r or p or s to play")
 data = input("Input: ")
 def correct_input(inp):
         if inp.lower() not in ["r","p","s"]:
